@@ -23,10 +23,10 @@ else:
 for i in range(4):
     print(i, end=" ")
 
-if True:
-    print("Holberton")
-else:
-    print("School")
+# if True:
+#     print("Holberton")
+# else:
+#     print("School")
 
 if 12 == 48 / 3 or 12 is 12:
     print("Holberton")
