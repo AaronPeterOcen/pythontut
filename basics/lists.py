@@ -24,3 +24,5 @@ basket.append(10)
 newl = basket
 print(basket)
 print(newl)
+
+print(bin(69))
