@@ -39,3 +39,25 @@ is_password = False
 if is_user and is_user:
     print("enter password")
     print(True)
+
+# loops
+# # for loops allow us to iterate over a collection of items
+# for loops in [1, 2, 3, 4, 5, 6, 7]:
+#     for z in ["a", "b,", "c"]:
+#         print(loops, z)
+
+# iterable
+# are items that can be iterated over
+user = {"name": "fibert", "age": 23, "gender": "male"}
+
+for item in user.items():
+    print(item)
+
+for key, value in user.items():
+    print(key, value)
+
+for item in user.values():
+    print(item)
+
+for item in user.keys():
+    print(item)
