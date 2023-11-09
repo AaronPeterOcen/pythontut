@@ -61,3 +61,37 @@ for item in user.values():
 
 for item in user.keys():
     print(item)
+
+# range()
+# range(start, stop, step)
+# creates
+print(range(0, 100))
+
+for x in range(0, 20):
+    print(x)
+
+for y in range(0, 20):
+    print(list(range(y)))
+
+# while loops
+# while [condition]:
+#     [code]
+
+i = 0
+while i < 10:
+    print(i)
+    i += 1
+
+# other uses
+while True:
+    print("infinite")
+    break
+# pass
+
+while True:
+    continue
+    print("infinite")
+
+# while True:
+#     input("wassa: ")
+#     break
