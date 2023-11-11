@@ -120,3 +120,62 @@ def hightesteven(li):
 print(hightesteven([2, 4, 6, 8, 10]))
 
 # walrus operator
+#  :=
+a = "iamfree"
+
+
+def pr():
+    if (n := len(a)) > 10:
+        print(f"too long {n} elements")
+    # return n
+
+
+(pr())
+
+
+# scope - what vars do i have access to
+
+a = 1
+
+
+def confusion():
+    a = 5
+    # return sum
+    return a
+
+
+print(a)
+print(confusion())
+
+total = 0
+
+
+def count(total):
+    total += 1
+    return total
+
+
+# print(count(4))
+print(count(count(count(total))))
+
+# rules
+# start with local
+# parent local
+# global
+# built in py functions
+
+
+# nonlocal - usd to refer to the parent local
+def outer():
+    x = "local"
+
+    def inner():
+        nonlocal x
+        x = "nonlocal"
+        print("inner:", x)
+
+    inner()
+    print("outer:", x)
+
+
+outer()
