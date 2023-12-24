@@ -45,3 +45,5 @@ print(next(g))
 
 # lists = malelist(100)
 # print(list(range(1000)))
+
+# under the hood of generators
